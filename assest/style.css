@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(228, 204, 208);
+    background-color: rgb(33,37,45);
+   
+}
+#navbar{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(204,0,22);
+color: white;
+
+}
+
+#logo{
+    display: flex;
+   margin: auto 5rem;
+}
+#logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#bold{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+#geet{
+   font-size: 2rem;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+}
+#logo1 img{
+    width: 3rem;
+    color: white;
+}
+#logo div{
+margin: 1rem;
+}
+.search-bar{
+    width: 50rem;
+    
+    background-color: rgba(239, 225, 225,32.8);
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search input[type=text]{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 1px 20px;
+    font-size: 1rem;
+  
+}
+::placeholder{
+    color: rgb(65, 61, 61);
+    
+}
+.search-bar button{
+    width: 50px;
+    height: 25px;
+     border: 0;
+     background-color: rgb(204,0,22);
+     color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#item ul{
+  display: flex;
+  margin-right: 10rem;
+}
+#item ul li {
+    text-decoration: none;
+   list-style: none;
+   margin: auto 1.5rem;
+   font-size: 1.07rem;
+   padding: 10px;
+}
+#item ul li:hover{
+    cursor: pointer;
+    background-color: rgb(109, 18, 18);
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+}
+
+
+
+#completesection{
+    background-color: rgba(33,37,45,5);
+    display: flex;
+    flex-direction: column;
+    height: 103vh;
+    margin: 0rem 5rem ;
+    margin-top: 1rem;
+   
+}
+
+#section{
+    background-color: rgba(33,37,45,var(--tw-bg-opacity));
+    display: flex;
+    height: 85vh;
+    margin: 0rem 5rem ;
+    margin-top: 2rem;
+   
+}
+
+#playing{
+    display: flex;
+    color: white;
+    width: 35%;
+    flex-direction: column;
+     margin: 2rem 2rem;
+     padding: 2rem;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 2rem;
+    background-color: aquamarine;
+    background-color: rgb(204,0,22);
+    box-sizing: border-box;
+  
+}
+
+#playing h1{
+    font-size: 2.5rem;
+}
+#playing img{
+  margin: 1.5rem 0rem;
+  border-radius: 2rem;
+}
+.songname{
+    font-size:2rem
+}
+#container{
+    background-color: rgb(148, 148, 190);
+    background-color: rgba(33,37,45,var(--tw-bg-opacity));
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Oswald', sans-serif;
+ overflow: auto;
+   
+}
+
+
+.fixed{
+    position: sticky;
+}
+#container h2{
+    margin-left: 13px;
+    font-size: 2rem;
+    color: white;
+}
+
+.Allsong{
+    width: 100%;
+    padding: 2px 0.5rem;
+}
+.song{
+    background-color: rgb(234, 202, 202);
+    background-color: rgba(33,37,45,var(--tw-bg-opacity));
+    display: flex;
+    box-sizing: border-box;
+    width: 95%;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.play{
+    color: white;
+    cursor: pointer;
+}
+.Allsong:hover{
+    border:2px solid rgb(57, 53, 53);
+    border-radius: 20px;
+ }
+.img {
+   width: 9%;
+   height: 100%;
+   background-color: transparent;
+}
+.img img{
+ box-sizing: border-box;
+ position: relative;
+ height: 100%;
+ border-radius: 20px;
+}
+    
+#songname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-left: 2rem;
+    color: white;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+#bottom{
+     width: 100%;
+     height: 6rem;
+     bottom: 0;
+     position: sticky;
+}
+#input{
+    background-color:black;
+    bottom: 0;
+    margin: 0 8rem;
+    align-items: center;
+    height: 6rem;
+    position: relative;
+}
+
+#range{
+    text-align: center;
+}
+#myprogressbar{
+    width: 70vw;
+   text-align: center;
+   cursor: pointer;
+}
+#icons{
+    display: flex;
+    margin-top: 0.5px;
+    align-items: center;
+    color: white;
+}
+#icons i{
+    cursor: pointer;
+}
+#icon{
+    align-items: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+    width: 35%;
+  
+}
+.image div{
+    margin-left: 8px;
+}
+.image img{
+    width: 17%;
+    height: 25%;
+    margin-left: 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+}
+@media only screen and (max-width:1500px){
+    body{
+   height: 100vh;
+   width: auto;
+    }
+    .search-bar{
+        width: 15rem;
+    }
+    #logo{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin: 0px;
+    }
+    #section{
+        flex-direction: column;
+        height: 100%;
+        margin: 0px 0px;
+        align-items: center;
+    }
+    #playing{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+    #input{
+        margin: 1rem 1rem;
+       
+    }
+    #playing img{
+        margin:0px 0px;
+        width:10rem
+    }
+    
+    #container{
+        padding: 0px;
+    }
+    #navbar{
+        align-items: center;
+      justify-content: center;
+    }
+    #box{
+        width: 100%;
+    }
+    .img{
+        width: 4rem;
+    }
+    .image{
+        width: 50%;
+    }
+    .image img{
+        margin-left: 1rem;
+    }
+    #item ul{
+        margin-right:0px;
+    }
+    #logo div{
+        margin:0px;
+    }
+   #completesection{
+    margin: 0%;
+   }
+   #range{
+    width: 100%;
+   }
+   .song{
+    justify-content: left;
+}
+}
+@media(max-width:500px){
+    #playing h1{
+        font-size: 1.5rem;
+    }
+    .songname{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:300px){
+    .search-bar{
+        width: 10rem;
+    }
+    .search input[type=text]{
+        font-size: 8px;
+    }
+    #playing img{
+      
+        width:6rem
+    }
+    
+    
+}
